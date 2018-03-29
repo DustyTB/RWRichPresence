@@ -6,7 +6,7 @@ RWRichPresence is a mod I've made for the RimWorld that lets it interface with D
 Currently the rich presence shows your colony name, days (and hours into the day) and the current quadrum - keeping it as minimal as possible. It updates your rich presence twice per ingame hour. You are free to look into the code if you want to do something like this yourself for another application or game. 
 
 # Installation
-Go to the releases tab and grab the latest zip. In it you will find two folders, 'Mods' and 'RimWorldWin_Data'. Drop both of these into the root of your game folder (the folder containing the rimworld exe). There will be seperate zips for linux, windows and OSx. 
+Go to the releases tab and grab the latest zip. In it you will find two folders, 'Mods' and 'RimWorldWin_Data'. Drop both of these into the root of your game folder (the folder containing the rimworld exe). Only Windows version as of now. Might work with other OS too, havent really tested that.
 
 You might notice the installation Is different than other mods, because it also adds a 0discord-rpc.dll file into your RimWorldWin_Data/Mono folder. That DLL is needed to be in the mono folder and, trust me I'd have it in the mod's assembly folder but the problem is the game cant load it from the assembly folder (and I have no idea why).
 
