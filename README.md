@@ -1,3 +1,6 @@
+
+![alt text](https://i.imgur.com/TGihCLc.png)
+
 # Introduction
 RWRichPresence is a mod I've made for the RimWorld that lets it interface with Discord and lets it have a rich presence.
 Currently the rich presence shows your colony name, days (and hours into the day) and the current quadrum - keeping it as minimal as possible. It updates your rich presence twice per ingame hour. You are free to look into the code if you want to do something like this yourself for another application or game. 
