@@ -15,7 +15,8 @@ namespace RimRPC
         {
             //We use this variable to avoid lag. Update is called every 1250 ticks. Thats twice each ingame hour.
             pushcooldown = pushcooldown + 1;
-            if (pushcooldown > 1250) {
+            if (pushcooldown > 1250)
+            {
                 StateHandler.PushState(map);
                 Log.Message("[RichPressence] Calling presence update...");
                 pushcooldown = 0;

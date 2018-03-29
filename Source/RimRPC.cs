@@ -36,7 +36,7 @@ namespace RimRPC
             DiscordRPC.Initialize("428272711702282252", ref eventHandlers, true, "0612");
             prsnc = default(DiscordRPC.RichPresence);
             prsnc.largeImageKey = "logo";
-            prsnc.state = "Idle";
+            prsnc.state = "Main Menu";
             DiscordRPC.UpdatePresence(ref RimRPC.prsnc);
             ReadyCallback();
         }
